@@ -1,0 +1,10 @@
+/* ANILyfe — Responsive overrides
+   Most responsiveness in this build comes from Tailwind's utility classes
+   (e.g. hidden md:flex) applied directly in markup, so this file is
+   intentionally light. Add breakpoint-specific overrides for the custom
+   component classes (css/components.css, css/style.css) here as needed. */
+
+@media (max-width: 768px) {
+  .glass-dark { padding: 1rem; }
+  .cd-box { min-width: 40px; }
+}
